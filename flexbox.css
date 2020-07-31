@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+}
+
+.contenedor{
+    width: 80%;
+    /*height: 500px;*/
+    background: orangered;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    /*align-items: stretch;*/
+
+}
+
+.hijo{
+    background: rgb(71, 71, 196);
+    width: 200px;
+    height: 100px;
+    color #fff;
+    margin: 30PX;
+    padding: 20px;
+    font-size: 40px;
+    text-align: center;
+    /*flex-grow: 1;
+    flex-shrink: 1;*/
+    flex: 1 1 auto;
+    order: 2;
+
+}
+.otro{
+    order: 1;
+}
